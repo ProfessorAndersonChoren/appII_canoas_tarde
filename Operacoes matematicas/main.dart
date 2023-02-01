@@ -1,6 +1,6 @@
 void main() {
   // Serve para imprimir algo na tela
-  //print("Hello World!!!");
+  print("Hello World!!!");
 
   // Criando variáveis
   var name = 'Anderson';
@@ -14,4 +14,8 @@ void main() {
   String country = "Brasil";
   double salary = 1800.98;
   bool isStudent = true;
+
+  // isActive = 'false';
+  dynamic phone = '9999-9999';
+  phone = 999999999;
 }
