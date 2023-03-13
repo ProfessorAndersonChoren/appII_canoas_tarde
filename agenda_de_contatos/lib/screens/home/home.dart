@@ -27,7 +27,9 @@ class _HomeState extends State<Home> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.of(context).pushNamed("/newContact");
+        },
         child: const Icon(Icons.add),
       ),
     );
